@@ -14,7 +14,7 @@ Jedyne prowizję jakie będą cię obowiązywać to prowizje Przelewy24, które 
 - prosty i czysty kod
 
 ## Wymagania:
-- konto w seriwsie Przelewy24
+- konto w serwisie Przelewy24
 - hosting internetowy z obsługą Node.js (praktycznie każdy serwis obsługuje)
 - baza danych MySQL
 
