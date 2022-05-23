@@ -5,7 +5,7 @@ Dzięki DonationSystem nie musisz już korzystać z pośredników, którzy pobie
 Od teraz możesz cały system donejtów oprzeć o własne serwery i mieć pełną kontrolę nad swoimi pieniędzmi.
 Jedyne prowizję jakie będą cię obowiązywać to prowizje Przelewy24, które kształtują się na poziomie od 1.9% do 3.4%.
 
-## Features:
+## Zalety:
 
 - niezależny system płatności dostarczony przez Przelewy24.
 - możliwości personalizacyjne donejtów
