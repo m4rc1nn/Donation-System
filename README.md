@@ -21,10 +21,11 @@ Jedyne prowizję jakie będą cię obowiązywać to prowizje Przelewy24, które 
 ## Instalacja:
 ```
 1. Pobierz wszystkie pliki z githuba.
-2. Pliki z folderu API wrzuć na stronę/podstronę z obsługą Node.js (pamiętaj o instalacji modułów - [npm install])
-3. Pliki z folderu Frontend wrzuć na swoją docelową stronę, na której twoi widzowie będą wysyłać donejty.
-4. Skonfiguruj plik API/config/config.js - w nim ustawiasz swoje hasło do paneli, dane do konta w Przelewy24, dane do połączenia z bazą danych, adresy URL i porty.
-5. Skonfiguruj plik Frontend/config/config.js - w nim ustawiasz adresy URL.
+2. Zaimportuj plik database.sql do swojej bazy danych w phpMyAdmin
+3. Pliki z folderu API wrzuć na stronę/podstronę z obsługą Node.js (pamiętaj o instalacji modułów - [npm install])
+4. Pliki z folderu Frontend wrzuć na swoją docelową stronę, na której twoi widzowie będą wysyłać donejty.
+5. Skonfiguruj plik API/config/config.js - w nim ustawiasz swoje hasło do paneli, dane do konta w Przelewy24, dane do połączenia z bazą danych, adresy URL i porty.
+6. Skonfiguruj plik Frontend/config/config.js - w nim ustawiasz adresy URL.
 ```
 
 ## Używanie:
