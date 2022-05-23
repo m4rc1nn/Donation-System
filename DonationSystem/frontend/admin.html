@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/admin.css">
+    <title>Panel konfiguracyjny</title>
+</head>
+<body>
+    <div id="box">
+        <h2>Panel administracyjny</h2>
+        <div class="input-box">
+            <span class="input-text">Link do logo (.png | .jpg)</span>
+            <input type="text" name="logo-link">
+        </div>
+        <div class="input-box">
+            <span class="input-text">Link do audio (.mp3)</span>
+            <input type="text" name="audio-link"></input>
+        </div>
+        <div class="input-box">
+            <span class="input-text">Minimalna wartość donejta (PLN)</span>
+            <input type="number" name="min-amount" required>
+        </div>
+        <div class="input-box">
+            <span class="input-text">Czas trwania donejta (ms, 1sekunda = 1000ms)</span>
+            <input type="number" name="donate-time" required>
+        </div>
+        <div class="input-box">
+            <span class="input-text">Tekst wyświetlany podczas donejta (zmienne: {NICKNAME}, {AMOUNT}, {TEXT})</span>
+            <input type="text" name="donate-text" required>
+        </div>
+        <button>ZAPISZ</button>
+        <button>WYGENERUJ LINK DO OBS</button>
+        <button>WYŚWIETL TESTOWEGO DONEJTA</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js" integrity="sha512-efUTj3HdSPwWJ9gjfGR71X9cvsrthIA78/Fvd/IN+fttQVy7XWkOAXb295j8B3cmm/kFKVxjiNYzKw9IQJHIuQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./js/admin.js"></script>
+</body>
+</html>

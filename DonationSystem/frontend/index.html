@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wpłać donejta</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div id="box">
+        <img src="" alt="Logo">
+        <div class="input-box">
+            <span class="input-text">WIELKOŚĆ DONEJTA (PLN)</span>
+            <input type="number" name="amount" required>
+        </div>
+        <div class="input-box">
+            <span class="input-text">TEKST DONEJTA</span>
+            <textarea maxlength="500" type="text" name="text"></textarea>
+        </div>
+        <div class="input-box">
+            <span class="input-text">NICKNAME</span>
+            <input maxlength="32" type="text" name="nickname" required>
+        </div>
+        <div class="input-box">
+            <span class="input-text">EMAIL</span>
+            <input type="email" name="email" required>
+        </div>
+        <button>WYŚLIJ DONEJTA</button>
+        <span id="error-message" style="color: red; text-align: center; padding: 10px;"></span>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
